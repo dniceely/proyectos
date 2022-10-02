@@ -146,3 +146,4 @@ la_borrar a' (Nodo a b la)
                          | otherwise = Nodo a b (la_borrar a' la)
 
 -- ejercicio 9
+data Arbol a = Hoja | Rama (Arbol a) a (Arbol a)
