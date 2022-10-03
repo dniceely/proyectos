@@ -42,7 +42,7 @@ data Persona = Decane
              | NoDocente Area 
              | Estudiante Carrera Ingreso  deriving (Show,Eq)
 
--- ejercicio 4b
+-- ejercicio 4b `
 -- Docente tiene tipo Cargo -> Persona
 
 
